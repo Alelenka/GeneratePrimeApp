@@ -1,0 +1,4 @@
+generate_prime = interface +c {
+	static create(): generate_prime;
+	generate_prime(a: i32): i32;
+}
